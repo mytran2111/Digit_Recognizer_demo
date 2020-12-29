@@ -1,0 +1,78 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%; 
+  background-color: #B7B8B6;
+  /* font-family: sans-serif;  */
+}
+
+body{
+  height: 100%;
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  font-family: 'Barlow', sans-serif;
+}
+
+.wrap{
+  display: grid;
+  place-content: center; 
+  justify-items: center; 
+}
+
+.inputWindow{
+  border: 3px solid #575755;
+  border-radius: 1em;
+  padding: 0.5em; 
+  min-width: 380px;
+}
+
+#header{
+  font-family: 'Pacifico', cursive;
+  font-size: 1cm;
+
+  /* top right bottom left */
+}
+
+#prediction{
+  border: 3px solid #575755;
+  border-radius: 1em;
+  padding: 0.25em; 
+  margin: 0.5em; 
+  /* font-family: 'Open Sans Condensed', sans-serif;  */
+  font-family: 'Pacifico', cursive;
+  color: black;  
+  display: grid;
+  min-width: 380px;
+}
+
+.hide{
+  display: none; 
+}
+
+.wait{
+  display: none;
+}
+
+/* Canvas thing */
+#drawSide{
+  place-content: center; 
+  text-align: center; 
+}
+#drawBoard{
+  border: 3px solid #575755; 
+}
+
+#smallBoard{
+  border: 1.5px solid #575755; 
+   
+}
+
+#text{
+  margin-bottom: 0.5em; 
+}
+
+#resizeCanvas{
+  margin-top: 0.5em; 
+}

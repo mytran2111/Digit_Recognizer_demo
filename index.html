@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@2.8.1/dist/tf.min.js"></script>
+    <script src="script.js"></script>
+  </head>
+  
+  <body>
+    <div class='wrap'>
+    <span id='header'> Client-side Digit Recognizer </span>
+    <br> 
+    <br>
+    <div class='inputWindow'>
+    <input class='hide' type='file' id='input' > 
+    <!-- another way to register an event listener: onchange -->
+
+    <span id='loading'> Loading </span>
+    </div>
+    <canvas id='resizeCanvas' width="28" height="28"></canvas>
+    <br>
+    <img id='inputImage'>   
+    </div> 
+    <div class='hide' id='drawSide'>
+      <div id='text'> Please write the digit here </div>
+      <canvas width='400' height='400' id='drawBoard'></canvas>
+      <br>
+      
+      <canvas width='28' height='28' id='smallBoard'></canvas>
+      <button id='clearButton'>Clear</button>
+    </div>
+   
+    <br>
+    <div class='wait' id='predictionContainer'>
+    <span id='prediction'> Predicting ... </span>
+    </div>
+<!-- Input, img tag only have an open, not close (very rare type) -->
+  </body>
+</html>
