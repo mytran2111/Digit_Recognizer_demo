@@ -6,4 +6,4 @@ This is my client-side MNIST prediction. I have trained my model in Python and s
 
 <img alt="A demo" src="demo2.PNG" style="height: 5vh; display: block; margin: 0.5em auto;">
 
-If you find it interesting, you can try out yourself [here](https://mnistwebdemo.mytran2111.repl.co/)
+If you find it interesting, you can try out yourself [here](https://mytran2111.github.io/DigitRecognizer_web_demo/)
